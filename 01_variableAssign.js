@@ -26,3 +26,19 @@ console.log("Male:",gender);
 
 var isMarried="No"
 console.log("Married Status:",isMarried);
+
+var a=10;
+{
+    var a=-10;
+}
+let b=a;
+{
+    let b= -20;
+}
+console.log(b);
+
+c=25;
+
+var c;
+console.log(c);
+
