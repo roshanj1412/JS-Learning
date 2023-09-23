@@ -44,4 +44,5 @@ console.log("-----------Variable with null value----");
 number=null;
 
 console.log("Number:",number,typeof number);
+console.log("*********************************************************************************");
 
