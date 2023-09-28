@@ -24,3 +24,12 @@ console.log(`Modulus result is: ${result}`);
 console.log(`Modulus result is: ${10 % 3}`);
 
 console.log(`Modulus result is: ${15 % 4}`);
+
+
+console.log("===================Assign Operator====================");
+var num3=5;
+
+//Compound addition +=
+num3+=3;//num3=num3+3 
+console.log(num3);
+
