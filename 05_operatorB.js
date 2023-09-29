@@ -33,8 +33,8 @@ console.log(`Length of string "JavaScript" is: ${result}`);
 
 var result=wordLength("developer");
 console.log(`Length of string "Developer" is: ${result}`);
-
-var result=wordLength("Google");
-console.log(`Length of string "Google" is: ${result}`);
+ var google='Google';
+var result=wordLength(google);
+console.log(`Length of string ${google} is: ${result}`);
 
 
