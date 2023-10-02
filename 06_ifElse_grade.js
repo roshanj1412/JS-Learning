@@ -19,8 +19,15 @@ voteEligible(200);
 voteEligible(0);
 voteEligible(null);
 voteEligible(undefined);
+console.log(`${null==undefined}`);
 
 
+var msg = "Good morning";
+function greeting() {
+msg = "Good Evening";
+console.log(msg);
+}
+greeting();
 
 
 
