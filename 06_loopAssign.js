@@ -31,7 +31,7 @@ var charAtOddPosition=function(str){
     for (let index = 0; index < str.length; index++) {
         if(str.charAt(index) !=" "){
             str1=str1+str.charAt(index);
-        }
+        } 
     }
     var string2="";
      for (var i = 1; i < str1.length; i=i+2) {
