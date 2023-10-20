@@ -20,15 +20,15 @@ const bankLocation={
 
 console.log(bankLocation);
 
-console.log(`(02(I)====>) Object 'bankSbi' using Object.assign() into object 'bankSbi1'=======`);
+console.log(`(03(I)====>) Object 'bankSbi' using Object.assign() into object 'bankSbi1'=======`);
  const bankSbi1=Object.assign(bankSbi);
  console.log(bankSbi1);
 
- console.log(`(02(II)====>) Object 'bankLocation' using Object.assign() into object 'bankLocation1'=======`);
+ console.log(`(03(II)====>) Object 'bankLocation' using Object.assign() into object 'bankLocation1'=======`);
  const bankLocation1=Object.assign(bankLocation);
  console.log(bankLocation1);
 
- console.log(`(02====>)'rateOfInterest' object using literals=======`);
+ console.log(`(04====>)'rateOfInterest' object using literals=======`);
 const rateOfInterest={
     homeLoan:'13%',
     personalLoan:'12%',
